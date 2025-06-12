@@ -18,6 +18,7 @@ set -o pipefail
 
 #set -exo pipefail 
 #but it is better to use above 3 commands separtately as it will be easy to understand
+#using curl command we can access any files or contents using URL.we can use -X GET, POST
 
 
 df -h # disk usage information, and -h makes the output human-readable.
