@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 ####################################################
@@ -22,7 +23,10 @@ set -o pipefail
 #don't use wget it will download the file
 #to access logfile we can use
 #curl ".....URL...(if stored on cloud)..." | grep error to access error
- 
+
+#find command is most important 
+
+#find / -name .....give name 
 
 df -h # disk usage information, and -h makes the output human-readable.
 free -g #provides system memory (RAM) usage information. 
