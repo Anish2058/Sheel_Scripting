@@ -19,7 +19,10 @@ set -o pipefail
 #set -exo pipefail 
 #but it is better to use above 3 commands separtately as it will be easy to understand
 #using curl command we can access any files or contents using URL.we can use -X GET, POST
-
+#don't use wget it will download the file
+#to access logfile we can use
+#curl ".....URL...(if stored on cloud)..." | grep error to access error
+ 
 
 df -h # disk usage information, and -h makes the output human-readable.
 free -g #provides system memory (RAM) usage information. 
