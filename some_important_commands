@@ -1,0 +1,25 @@
+#some daily used commands
+ls,cp,mv,touch,grep,nano,cat, find 
+
+#Simple Shell Script to list all processes
+
+ps -ef | grep ubuntu | awk -F" " '{print $column_No.}'
+
+#a script to print only errors from a remote log
+
+curl "Url" | grep error
+or, curl -X GET "URL" | grep error
+
+curl,pipe,grep
+
+#shell script to print number divisible by 3 & 5 and not 15
+
+for i in {1..100}; do
+        if (( i % 3 == 0 && i % 5 == 0 && i % 15 != 0 )); then
+                echo "The numbers are $i";
+        fi
+done
+
+#print odd,even, dividible by 3, prime number..... and others
+
+

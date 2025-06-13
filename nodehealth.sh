@@ -33,3 +33,5 @@ free -g #provides system memory (RAM) usage information.
 nproc  #nproc shows the number of CPU cores.
 ps -ef | grep ubuntu | awk -F " " '{print $2}'
 
+curl google.com | grep HREF
+

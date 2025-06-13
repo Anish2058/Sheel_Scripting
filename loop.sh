@@ -36,3 +36,15 @@ done
 #kill is used to kill the process [kill -9 pid or  name]
 # trap is used to stoping the others to interupting or stopping the script
 # trap SIGINT, SIGHIP,SIGQUIT
+
+
+
+
+
+
+
+for i in {1..100}; do
+	if (( i % 3 == 0 && i % 5 == 0 )); then
+      		echo "The numbers are $i";
+	fi
+done
