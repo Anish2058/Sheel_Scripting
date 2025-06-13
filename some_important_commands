@@ -25,5 +25,31 @@ done
 
 
 #script to print numb er of S in mississippi
+x=mississippi
+grep -o "s" <<< "$x" | wc -l
 
+#crontab -> linux admin cron -> time based job scheduler
 
+# open file in read only mode
+nano -r filename
+
+#difference between softlink and hardlink
+created a file and saved in memory
+reuse copy as a hardlink directly point to the file data but softlink points to the file name
+
+#break and continue
+
+breaking the execution of program 
+continue the execution of program(SKIP AND CONTINUE)
+
+set -u -> until not use the shell script will not complain unused variable
+
+#bash dynamically or statically typed
+bash is dynamically type as we donot declare the variables 
+
+#sort list of names in a file
+Sort
+
+#managing logs of system that generate huge log files everyday
+logrotate
+logrotate(gzip,zip,tar...)
